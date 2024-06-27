@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>阿瓦隆桌游介绍</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="avalon.css"/>
+	<body>
+		<!-- <div class="container"> -->
+		<!-- 导航（包括按钮与锚点） -->
+		<div class="daohang">
+			<input type="checkbox" id="check"/>
+			<label for="check">
+				<i class="fa outdent" id="bt">
+					<span id="">导航</span>
+				</i>
+			</label>
+				<ul>
+					<li><a href="#封面" class="a">回到顶端</a></li>
+					<li><a href="#简介与游戏背景" class="a">简介与游戏背景</a></li>
+					<li><a href="#角色介绍" class="a">角色介绍</a></li>
+					<li><a href="#游戏规则" class="a">游戏规则与配置</a></li>
+					<li><a href="#游戏玩法" class="a">游戏玩法</a></li>
+					<li><a href="#end" class="a">回到底端</a></li>
+				</ul>	
+		</div>
+		
+			<!-- 封面 -->
+			<div calss="kuai" id="封面">
+					<img src="阿瓦隆.png" class="tou">
+			</div>
+			<!-- 前提介绍 -->
+			<div calss="kuai" id="简介与游戏背景">
+				<div class="p">
+					<h1 class="title" style="padding-left: 15%;">简介</h1>
+					<p style="padding-left: 15%;">阿瓦隆是一款可供5-10位玩家进行的身份推理游戏，根据玩家人数不同游戏会有不同的角色配置。<br>但游戏始终分为两大阵营，好人和坏人；好人阵营以组队、投票的方式成功做三次任务获取最后胜利，坏人阵营隐匿于好人中间，靠投失败票阻止任务成功，或刺杀好人阵营中的关键人物梅林为获胜手段。</p>
+					
+					<h1 style="padding-left: 15%;">游戏背景</h1>
+					<p style="padding-left: 15%;">在遥远神秘的阿瓦隆，正义与邪恶展开激烈的争斗。<br>亚瑟王手下的圆桌骑士派西维尔需要率队完成三次艰巨的任务，然而在众多的人选中隐藏着邪恶的力量，为了避免失败，他需要挑选出绝对忠诚的伙伴帮助他尽快完成任务。<br>梅林，阿瓦隆永远的智者。他能分辨出邪恶阵营每位成员的真实身份，唯一的视野盲点就是——黑老大莫德雷德。虽然梅林能够看到种种危机，但他只能透过隐晦的暗示将信息传递给圆桌骑士派西维尔，因为这位智者的安危关乎着正义的存亡延续。<br>在月之暗面，莫甘娜、黑老大、奥伯伦、刺客和爪牙们已经忍不住要露出嗜血的笑容……邪恶力量正在阴暗的角落伺机待发<br>正义与邪恶的对决，就在此刻！</p>
+					
+				</div>
+			</div>
+			
+			
+			<!-- 人物介绍 -->
+			<div calss="kuai" id="角色介绍">
+				<div class="p1">
+					<div class="role-title">
+						<h1 class="role-title1" style="padding-left: 30%;">人物介绍</h1>
+						<p style="padding-left: 30%;">卡片背面含有人物介绍</p>
+					</div>
+					<div class="blue">
+						<div class="car good">
+							<div class="font">
+								<img src="梅林.png" class="role">
+							</div>
+							<div class="back">
+								<div class="intrds">
+									&nbsp&nbsp&nbsp梅林
+								</div>
+								<div class="about">
+									&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp好人方的主公，他能看到除了黑老大之外的所有坏人，他需要在游戏中隐藏自己，给派西维尔透露信息。
+								</div>
+							</div>
+						</div>
+						<div class="car good">
+							<div class="font">
+								<img src="派西维尔.png" class="role">
+							</div>
+							<div class="back">
+								<div class="intrds">
+									&nbsp&nbsp&nbsp派西维尔
+								</div>
+								<div class="about">
+									&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp好人方的带队人，他能看到莫甘娜和梅林，但不知道谁是真正的梅林，他需要确定真正的梅林，然后带领好人方组队赢得游戏。
+								</div>
+							</div>
+						</div>
+						<div class="car good">
+							<div class="font">
+								<img src="忠臣.png" class="role">
+							</div>
+							<div class="back">
+								<div class="intrds">
+									&nbsp&nbsp&nbsp忠臣
+								</div>
+								<div class="about">
+									&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp好人方的成员，他们只能看到自己的身份牌，需要跟随派西维尔的领导让任务成功，并且隐藏真正的梅林身份。
+								</div>
+							</div>
+						</div>
+							<div class="car function">
+								<div class="font">
+									<img src="女神.png" class="role">
+								</div>
+								<div class="back">
+									<div class="intrds">
+										&nbsp&nbsp&nbsp功能牌&nbsp&nbsp女神牌
+									</div>
+									<div class="about">
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp在9人局和10人局有女神牌，2、3、4轮任务结束，女神可以选择一个人得知他是好人还是坏人，被验的人成为下一轮女神。
+									</div>
+								</div>
+						</div>
+					</div>
+					<div class="red">
+						<div class="car bad">
+								<div class="font">
+									<img src="莫甘娜.png" class="role">
+								</div>
+								<div class="back">
+									<div class="intrds">
+										&nbsp&nbsp&nbsp莫甘娜
+									</div>
+									<div class="about">
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp坏人方的领头人，莫甘娜能看见除奥伯伦之外的坏人，同时他能被梅林看见，他可以被派西维尔看见，但派西维尔并不知道他的真正身份，所以可以装作自己是梅林来迷惑派西维尔。
+									</div>
+								</div>
+							</div>
+							<div class="car bad">
+								<div class="font">
+									<img src="刺客.png" class="role">
+								</div>
+								<div class="back">
+									<div class="intrds">
+										&nbsp&nbsp&nbsp刺客
+									</div>
+									<div class="about">
+										&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp坏人方的精英，他能被梅林看见，他的任务是寻找真正的梅林，并在好人赢得三局游戏后刺杀梅林，刺杀成功则坏人胜利。
+									</div>
+								</div>
+							</div>
+							<div class="car bad">
+								<div class="font">
+									<img src="黑老大.png" class="role">
+								</div>
+								<div class="back">
+									<div class="intrds">
+										&nbsp&nbsp&nbsp莫德雷德
+									</div>
+									<div class="about">
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp在忠臣里的坏人，梅林晚上看不到他，所以他隐藏在平民里，混进队伍让任务失败。
+									</div>
+								</div>
+							</div>
+							<div class="car bad">
+								<div class="font">
+									<img src="奥伯伦.png" class="role">
+								</div>
+								<div class="back">
+									<div class="intrds">
+										&nbsp&nbsp&nbsp奥伯伦
+									</div>
+									<div class="about">
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp坏人方角色，但是他看不到他的队友，他的队友也看不到他，他能被梅林看见。
+									</div>
+								</div>
+							</div>
+							<div class="car bad">
+								<div class="font">
+									<img src="爪牙.png" class="role">
+								</div>
+								<div class="back">
+									<div class="intrds">
+										&nbsp&nbsp&nbsp爪牙
+									</div>
+									<div class="about">
+										&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp坏人方角色，能被梅林看到。
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- 游戏玩法 -->
+			<div calss="kuai" id="游戏规则">
+				<div class="p2">
+					<h1 class="title">输赢规则</h1>
+						<p style="padding-left: 15%;">好人方（蓝方）的目标是嬴得三局任务的胜利，并隐藏真正的梅林<br>
+						坏人方（红方）的目标是赢得让三局任务失败，或者找到真正的梅林进行刺杀，刺杀成功则赢得游戏。
+						</p>
+					<h1>角色配置</h1>
+						<div class="configuration">
+							<img src="角色配置.png" id="configuration">
+						</div>
+				</div>
+			</div>
+			<div calss="kuai" id="游戏玩法">
+				<div class="p3">
+					<h1 class="title">游戏玩法</h1>
+					<br>
+					<h3 style="padding-left: 15%;">组队上车</h3>
+						<p style="padding-left: 15%;">系统随机选择一位玩家为队长顺次组队，由队长选择队员进入队伍。如果有女神，则女神下一位玩家是第一轮队长。
+						</p>
+					<h3 style="padding-left: 15%;">发言投票</h3>
+						<p style="padding-left: 15%;">
+						队长选择队伍完毕后每个人发言表态，说明自己是否同意这个队伍，表明自己的身份，并对场上局势进行分析。<br>
+						超过半数玩家同意则组队成功；超过半数玩家反对则组队失败，由新队长继续选队出征。
+当反对车队的次数达到上限（5次）时，则会进入强制轮，强制轮队长选择的人员将强制出征。<br>
+						最后队长再次确认队伍，也可以修改队伍，需要组队的人数详见下表。
+						</p>
+						<div class="num">
+							<img src="组队人数.png" id="num">
+						</div>
+					<h3 style="padding-left: 15%;">做任务</h3>
+						<p style="padding-left: 15%;">在队伍中的成员进行暗中投票，选择任务成功或者任务失败票。<br>
+						好人方上车后，只能投成功票，完成任务实现阵营目标。<br>
+						坏人方上车后，可以投成功票，完成任务隐藏身份；也可以投失败票，破坏任务实现阵营目标。只要有坏人方上车，就有机会破坏任务。<br>
+						每轮任务中，若全票成功，好人方积一分，即发车成功。<br>
+						只要有一张反对票，则任务失败，坏人方积一分。(7、8、9、10人局，第四轮为好人保护轮，都需要有两个失败票才算失败)<br>
+						任一方先积到三分为胜利！
+						</p>
+					<h3 style="padding-left: 15%;">女神验人</h3>
+						<p style="padding-left: 15%;">第2、3、4轮，如果好人、坏人还没有任何一方胜利，则女神可以选择一个人验，得知他的好人或者坏人身份(只能知道对方阵营，并不能知道对方真实角色)。被验的人成为下一个女神，被验过的人不能再验。女神得知身份后，在下一轮发言时可以说验人结果，也可以不说，可以说真话，也可以说假话。</p>
+					<h3 style="padding-left: 15%;">刺杀梅林</h3>
+						<p style="padding-left: 15%;">如果好人方率先获得三个任务成功，则进入刺杀梅林环节。刺客在刺杀梅林之前，每个坏人都可以发言讨论决定要刺杀谁，如果梅林被刺杀则坏人胜利，梅林没有被刺杀则好人胜利。</p>
+				</div>
+			</div>
+			<div class="p4">
+				<h1 id="end">学会了就赶紧玩起来吧~</h1>
+			</div>
+		 </div>
+	</body>
+</html>
